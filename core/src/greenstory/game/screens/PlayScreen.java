@@ -225,7 +225,7 @@ public class PlayScreen extends AbstractScreen implements Disposable {
         }
         player.draw(batch);
         if (!player.arrows.isEmpty()) {
-            for (Bow bow : player.arrows) {
+            for (Bow bow : player.arrows) { 
                 bow.draw(batch);
             }
         }
